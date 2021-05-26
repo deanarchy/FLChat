@@ -78,7 +78,7 @@ FLChat is a messaging app built using Flask for the app, SQLAlchemy for the ORM,
 Aside from hobby, this project aimed as author's practice building a robust, maintainable, and reliable backend infrastructure. 
 Author also acknowledge that this project is far from perfect so feedback is much appreciated. Feel free to use, extend, or alter this project to your liking. 
 This is the list of features of the current release:
-1. sd
+1. To be added..
 
 ### Built With
 
@@ -96,10 +96,12 @@ To get a local copy up and running follow these simple steps.
 ### Prerequisites
 
 This is an example of how to list things you need to use the software and how to install them.
-* Docker and Docker-Compose
+* Docker & Docker-compose
   ```sh
-  npm install npm@latest -g
+  sudo apt install docker.io
+  sudo apt install docker-compose 
   ```
+  or [get docker](https://docs.docker.com/get-docker/) for other platform
 
 ### Installation
 
@@ -107,9 +109,9 @@ This is an example of how to list things you need to use the software and how to
    ```sh
    git clone https://github.com/github_username/repo_name.git
    ```
-2. Install NPM packages
+2. Run the app
    ```sh
-   npm install
+   docker-compose up -d --build
    ```
 
 

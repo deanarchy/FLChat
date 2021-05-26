@@ -9,13 +9,11 @@ if os.environ.get('FLASK_COVERAGE'):
     COV = coverage.coverage(branch=True, include='app/*')
     COV.start()
 
-
 from flask_migrate import Migrate
 from app import create_app, db
 from app.models import User, Conversation, Message
 
 BASE_DIR = os.path.abspath(os.path.dirname(__file__))
-
 
 app = create_app(os.getenv('FLASK_ENV') or 'default')
 migrate = Migrate(app, db)
@@ -47,5 +45,3 @@ def test(coverage):
         COV.html_report(directory=cov_dir)
         print(f'HTML version: file://{cov_dir}/index.html')
         COV.erase()
-
-# TODO : DEPLOY

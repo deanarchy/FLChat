@@ -13,6 +13,8 @@ flask-jwt-extended = "*"
 psycopg2-binary = "*"
 graphene-sqlalchemy = "*"
 coverage = "*"
+flask-sslify = "*"
+gunicorn = "*"
 
 [dev-packages]
 

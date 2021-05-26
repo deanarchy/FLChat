@@ -13,6 +13,10 @@ def create_app(env):
     app.config.from_object(config[env])
     config[env].init_app(app)
 
+    if app.config['SSL_REDIRECT']:
+        from flask_sslify import SSLify
+        sslify = SSLify(app)
+
     db.init_app(app)
     jwt.init_app(app)
 

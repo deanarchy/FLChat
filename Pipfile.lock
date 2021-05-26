@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "e93b005c7b567affd27d9e582dd77b492ce0165d13d5ef34e6c3b6e7cbf5428d"
+            "sha256": "77d5acafb461a6a6ac3148f584149665032bdf91557aa1845db8a9edd6ecd101"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -18,11 +18,11 @@
     "default": {
         "alembic": {
             "hashes": [
-                "sha256:5a01e9ac338e7380aea1d8a038fcc927cf309cc0b90ede4472c601282054f1b3",
-                "sha256:6d243986586709e9358accdd5ba35d16dd7ca5572681f0d683638ced407504c8"
+                "sha256:becb572c6701c90ca249f97fc1ae231468cc9516df367a350901eeb9310a8d43",
+                "sha256:dd0fd7109f82cd1d7ea64b26f287534a1ad1bc5deab79807926d5f3f5b3b517c"
             ],
             "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3, 3.4, 3.5'",
-            "version": "==1.6.3"
+            "version": "==1.6.4"
         },
         "aniso8601": {
             "hashes": [
@@ -144,6 +144,13 @@
             "index": "pypi",
             "version": "==2.5.1"
         },
+        "flask-sslify": {
+            "hashes": [
+                "sha256:d33e1d3c09cd95154176aa8a7319418e52129fc482dd56d8a8ad7c24500d543e"
+            ],
+            "index": "pypi",
+            "version": "==0.1.5"
+        },
         "graphene": {
             "hashes": [
                 "sha256:09165f03e1591b76bf57b133482db9be6dac72c74b0a628d3c93182af9c5a896",
@@ -234,6 +241,14 @@
             ],
             "markers": "python_version >= '3'",
             "version": "==1.1.0"
+        },
+        "gunicorn": {
+            "hashes": [
+                "sha256:9dcc4547dbb1cb284accfb15ab5667a0e5d1881cc443e0677b4882a4067a807e",
+                "sha256:e0a968b5ba15f8a328fdfd7ab1fcb5af4470c28aaf7e55df02a99bc13138e6e8"
+            ],
+            "index": "pypi",
+            "version": "==20.1.0"
         },
         "importlib-metadata": {
             "hashes": [
